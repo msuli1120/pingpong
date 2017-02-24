@@ -1,8 +1,8 @@
 function play(num){
   num = parseInt(num);
-  tag1 = "<ul><li>";
-  tag2 = "</li></ul>";
-  numbers = [];
+  var tag1 = "<ul><li>";
+  var tag2 = "</li></ul>";
+  var numbers = [];
 
   for(var i=1; i<=num; ++i){     //countup to the provided number
     numbers.push(i);             //push all numbers into an array
@@ -16,12 +16,12 @@ function play(num){
     } else if (number%3===0){
       numbers.splice(index,1,"ping");
     };
-    $("#result").append(tag1+numbers+tag2);
   });
+
+  for(var j=0; j<numbers.length; j++){
+    $("#result").append(tag1+numbers[j]+tag2);
+  };
 };
-
-
-
 
 
 $(function(){
