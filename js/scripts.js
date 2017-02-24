@@ -4,10 +4,11 @@ function play(num){
   tag2 = "</li></ul>";
   numbers = [];
 
-  for(var i=1; i<=num; ++i){
-    numbers.push(i);
+  for(var i=1; i<=num; ++i){     //countup to the provided number
+    numbers.push(i);             //push all numbers into an array
   };
-  numbers.forEach(function(number,index){
+
+  numbers.forEach(function(number,index){   //checking each number in the array
     if(number%15===0){
       numbers.splice(index,1,"pingpong");
     } else if (number%5===0){
@@ -15,8 +16,8 @@ function play(num){
     } else if (number%3===0){
       numbers.splice(index,1,"ping");
     };
+    $("#result").append(tag1+numbers+tag2);
   });
-  console.log(numbers);
 };
 
 
