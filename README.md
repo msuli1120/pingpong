@@ -10,24 +10,24 @@ _A simple application that takes a number from a user input and returns a range 
 
 ## Specs
 
-*_count up to the provided number.
-   input: 4
-   output: 1,2,3,4_  
-*_change the type from string to number.
-  input:"1"
-  output: 1_
+*_count up to the provided number._
+   *_input: 4_
+   *_output: 1,2,3,4_  
+*_change the type from string to number._
+  *_input:"1"_
+  *_output: 1_
 *_add function to the numbers those are divisible by 3 to display word "ping"_
-  _input: 3_
-  _output: ping _
+  *_input: 3_
+  *_output: ping _
 *_add function to the numbers those are divisible by 5 to display word "pong"_
-    _input: 5_
-    _output: "pong"_
+  *_input: 5_
+  *_output: "pong"_
 *_add function to the numbers those are divisible by 15 to display word "pingpong"_
-    _input: 15_
-    _output: "pingpong"_
+  *_input: 15_
+  *_output: "pingpong"_
 *_fix the numbers those are divisible by 3 and 5 and 15_
-    _input: 45_
-    _output: "pingpong"_
+  *_input: 45_
+  *_output: "pingpong"_
 
 ## Setup
 
