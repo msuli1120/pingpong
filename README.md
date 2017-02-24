@@ -42,4 +42,4 @@ _A simple application that takes a number from a user input and returns a range 
 ### License
 *This application is licensed under Xing Li's name*
 copyright (c) 2017 **_Xing Li_**
-# pingpong
+# Ping-Pong
