@@ -23,7 +23,6 @@ function play(num){
   };
 };
 
-
 $(function(){
   $("form").submit(function(event){
     event.preventDefault();
