@@ -37,7 +37,7 @@ _A simple application that takes a number from a user input and returns a range 
 * _open with a browser_
 * _you will know me_
 
-[click here](https://github.com/msuli1120/portfolio.git) to check out my portfolio
+[click here](https://msuli1120.github.io/pingpong/) to check out my portfolio
 
 ### License
 *This application is licensed under Xing Li's name*
