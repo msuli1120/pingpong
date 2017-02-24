@@ -12,6 +12,35 @@ h1 {
   text-align: center;
 }
 
+img#img1 {
+  width: 5%;
+  height: 5%;
+  float: left;
+  margin-left: -60px;
+  margin-top: 10px;
+}
+
+img#img2 {
+  width: 5%;
+  height: 5%;
+  float: right;
+  margin-top: -50px;
+}
+
+img#img3 {
+  width: 5%;
+  height: 5%;
+  margin-left: 480px;
+  margin-top: -35px;
+}
+
+.jumbotron {
+    background-image: url("https://server.pingpong.net/login/pingpong.png");
+    background-repeat:space;
+    background-color: #ffa632;
+}
+
+
 #result {
   background: #ffad33;
 }
