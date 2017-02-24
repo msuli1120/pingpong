@@ -22,10 +22,12 @@ _A simple application that takes a number from a user input and returns a range 
 ### _add function to the numbers those are divisible by 5 to display word "pong"_
     * _input: 5_
     * _output: "pong"_
-### _add function to the numbers those are divisible by 15 to display word "ping-pong"_
+### _add function to the numbers those are divisible by 15 to display word "pingpong"_
       * _input: 15_
-      * _output: "pong"_
-
+      * _output: "pingpong"_
+### _fix the numbers those are divisible by 3 and 5 and 15_
+      *_input: 45_
+      *_output: "pingpong"_
 
 ## Setup
 
