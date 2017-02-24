@@ -11,3 +11,7 @@ input[type=number] {
 h1 {
   text-align: center;
 }
+
+#result {
+  background: #ffad33;
+}

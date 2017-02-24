@@ -20,6 +20,7 @@ function play(num){
 
   for(var j=0; j<numbers.length; j++){        //display new array as a list
     $("#result").append(tag1+numbers[j]+tag2);
+    $("#result").animate({height: "100%", opacity: "0"}, 5000,"swing");
   };
 };
 
